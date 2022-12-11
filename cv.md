@@ -52,3 +52,19 @@ function alphabetPosition(text) {
   return nums.join(' '); 
 }
 ```
+
+---
+
+### Experiences ###
+This is Curriculum Vitae. When creating, I used Markdown formatting syntax, VS Code and Github. \
+<https://github.com/kozinaksa/my-cv/>
+
+---
+
+### Educations ###
+* [JavaScript Manual](https://learn.javascript.ru/) (in progress)
+* [HTML basics for beginners](https://code-basics.com/languages/html) (completed)
+* [HTML is like Word but for the Web](https://marksheet.io/html-basics.html) (in progress)
+* [CSS basics for beginners](https://code-basics.com/languages/css) (in progress)
+* [Painting with code](https://marksheet.io/css-basics.html) (in progress)
+* [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) (in progress)
