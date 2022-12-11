@@ -13,9 +13,10 @@
 
 ---
 ### About me ###
-My goal is to create convenient interfaces for users, to make people's stay on the Internet easier and more enjoyable. I graduated from a publishing college, which means I can choose the appropriate font, arrange the elements on the page, and build a modular grid. I independently studied the basics of working with color, Adobe PhotoShop and Illustrator. I understand the principles of the Internet, networks, browsers. 
+My goal is to&nbsp;create convenient interfaces for&nbsp;users, to&nbsp;make people's stay on&nbsp;the&nbsp;Internet easier and&nbsp;more enjoyable. I&nbsp;graduated from&nbsp;a&nbsp;publishing college, which means I&nbsp;can&nbsp;choose the&nbsp;appropriate font, arrange the&nbsp;elements on&nbsp;the&nbsp;page, and build a&nbsp;modular grid. I&nbsp;independently studied the&nbsp;basics of&nbsp;working with color, Adobe PhotoShop and Illustrator. I&nbsp;understand the&nbsp;principles of&nbsp;the&nbsp;Internet, networks, browsers. 
 
-I am sure that enthusiasm, perseverance, the ability to read, understand and clarify (if necessary) the requirements for the task, as well as the ability to plan my working time will help me become a good frontend developer.
+I&nbsp;am&nbsp;sure that enthusiasm, perseverance, the&nbsp;ability to&nbsp;read, understand and clarify (if&nbsp;necessary) the&nbsp;requirements for&nbsp;the&nbsp;task, as&nbsp;well as&nbsp;the&nbsp;ability to&nbsp;plan my working time will help me become a&nbsp;good frontend developer.
+
 
 ---
 
