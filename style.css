@@ -70,7 +70,8 @@ a {
   color: #3b3b3b;
 }
 
-a:hover {
+a:hover,
+.github-link:hover {
   cursor: pointer;
   color: #fc714d;
   transition: .3s;
