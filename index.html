@@ -4,8 +4,120 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/svg/icon-for-cv.ico">
+  <base target="_blank">
 </head>
 <body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link" target="_self">Contacts</a></li>
+        <li class="nav-item"><a href="#summary" class="nav-link" target="_self">Summary</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link" target="_self">Skills</a></li>
+        <li class="nav-item"><a href="#code-example" class="nav-link" target="_self">Code Example</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link" target="_self">Experience</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link" target="_self">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link" target="_self">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <div class="left-side">
+        <figure class="figure">
+          <img src="./assets/img/my-photo.jpg" class="profile-photo" width="300" height="400" alt="My photo">
+        </figure>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item"><span>Location</span><br>Saint-Petersburg,<br>Russia (GMT +7)</li>
+            <li class="section-item"><span>E-mail</span><br>kozinaksa@gmail.com</li>
+            <li class="section-item"><span>Github</span><br><a href="https://github.com/kozinaksa">kozinaksa</a></li>
+            <li class="section-item"><span>Discord</span><br>Lin_Moro#8613</li>
+            <li class="section-item"><span>Telegram</span><br><a href="https://t.me/kozinaksa">kozinaksa</a></li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item"><span>Programming Languages</span><br>JavaScript, HTML, CSS</li>
+              <li class="section-item"><span>Version Control System</span><br>Git</li>
+              <li class="section-item"><span>Tools</span><br>VS Code</li>
+              <li class="section-item"><span>Adobe</span><br>InDesign, PhotoShop, Illustrator</li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list">
+            <li class="section-item"><span>Russian</span><br>Native</li>
+            <li class="section-item"><span>English</span><br>B1 Intermediate (According to <a href="https://www.efset.org/quick-check/">EF SET short English quiz</a>)</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="section" id="profile">
+          <h1 class="name-title">Galina Moroz</h1>
+          <h3 class="job-title">Junior Frontend Developer</h3>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p class="section-text">My goal is to&nbsp;create convenient interfaces for&nbsp;users, to&nbsp;make people's stay on&nbsp;the&nbsp;Internet easier and&nbsp;more enjoyable. I&nbsp;graduated from&nbsp;a&nbsp;publishing college, which means I&nbsp;can&nbsp;choose the&nbsp;appropriate font, arrange the&nbsp;elements on&nbsp;the&nbsp;page, and build a&nbsp;modular grid. I&nbsp;independently studied the&nbsp;basics of&nbsp;working with color, Adobe PhotoShop and Illustrator. I&nbsp;understand the&nbsp;principles of&nbsp;the&nbsp;Internet, networks, browsers.</p>
+          <p class="section-text">I&nbsp;am&nbsp;sure that enthusiasm, perseverance, the&nbsp;ability to&nbsp;read, understand and clarify (if&nbsp;necessary) the&nbsp;requirements for&nbsp;the&nbsp;task, as&nbsp;well as&nbsp;the&nbsp;ability to&nbsp;plan my working time will help me become a&nbsp;good frontend developer.</p>
+        </section>
+        <section class="section" id="code-example">
+          <h2 class="section-title">Code Example</h2>
+          <p class="section-text "><span>Replace With Alphabet Position</span> on <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript" class="link">Codewars</a></p>
+          <blockquote class="quote-task-code">
+            <h4 class="section-title small-title">Description:</h4>
+            <p class="section-text in-quote">In this kata you are required to, given a string, replace every letter with its position in the alphabet.<br>If anything in the text isn't a letter, ignore it and don't return it. <code>"a" = 1</code>, <code>"b" = 2</code>, etc.</p>
+            <h4 class="section-title small-title">Example:</h4>
+            <p class="section-text in-quote"><span>alphabetPosition("The sunset sets at twelve o'clock.")</span><br>Should return <code>"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</code> (as a string)</p>
+          </blockquote>
+          <h4 class="section-title small-title solution-title">Solution:</h4>
+          <pre class="code">
+  function alphabetPosition(text) {
+    let nums = [];
+    const alphabet = "abcdefghijklmnopqrstuvwxyz";
+    for (let i = 0; i &lt; text.length; i++) {
+      let symb = alphabet.indexOf(text[i].toLowerCase());
+      if (symb !== -1) {
+        nums.push(symb + 1);
+      }
+    }
+    return nums.join(' ');
+  }
+          </pre>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title experience-title">Experience</h2>
+          <p class="section-text">This Curriculum Vitae is my first project. When creating, I used markup language HTML, rule-based language CSS, source-code editor VS Code and distributed version control system Git.<br>(<a href="https://github.com/kozinaksa/rsschool-cv">Visit the project repository on Github</a>)</p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title education-title">Education</h2>
+          <ul class="section-list education-list">
+            <li class="section-item education-item"><a href="https://code-basics.com/languages/html" class="link">HTML basics for beginners</a> (completed)</li>
+              <li class="section-item education-item"><a href="https://code-basics.com/languages/css" class="link">CSS basics for beginners</a> (completed)</li>
+              <li class="section-item education-item"><a href="https://marksheet.io/html-basics.html" class="link">HTML is like Word but for the Web</a> (in progress)</li>
+              <li class="section-item education-item"><a href="https://marksheet.io/css-basics.html" class="link">Painting with code</a> (in progress)</li>
+              <li class="section-item education-item"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" class="link">Responsive Web Design</a> (in progress)</li>
+              <li class="section-item education-item"><a href="https://learn.javascript.ru/" class="link">JavaScript Manual</a> (in progress)</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="year-and-git">
+        <p>© 2022<br>Galina Moroz</p>
+        <a href="https://github.com/kozinaksa" class="github-link"><img src="./assets/svg/github-mark-white.svg" class="github-logo" height="40" alt="link to GitHub">
+          <p>My Github</p>
+        </a>
+      </div>
+        <a href="https://rs.school/js/" class="rsschool-link"><img src="./assets/svg/footer-icon-rsschool.svg" class="rss-logo" height="40" alt="link to RSSchool"></a>
+    </div>
+  </footer>
 </body>
 </html>
