@@ -47,7 +47,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 320px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -95,10 +94,11 @@ code,
 .footer-container {
   max-width: 1000px;
   margin: 0 auto;
-  position: relative;
+
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .section {
@@ -109,6 +109,7 @@ code,
 
 .header {
   background-color: #3b3b3b;
+  overflow: auto;
  }
 
 .nav-list {
@@ -148,6 +149,7 @@ code,
 
 .left-side {
   position: relative;
+  width: 30%;
   background-color: #3b3b3b;
   color: #f2f2f2;
   z-index: 1;
@@ -167,6 +169,7 @@ code,
 
 .right-side {
   position: relative;
+  width: 70%;
   background-color: #f2f2f2;
   color: #3b3b3b;
   padding: 0 30px;
@@ -305,3 +308,21 @@ code,
 }
 
 /*--only-footer--*/
+
+@media only screen and (max-width: 300px) {
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 800px) {
+  .left-side,
+  .right-side {
+    width: 50%;
+  }
+  .profile-photo {
+    width: 100%;
+    height: auto;
+  }
+}
