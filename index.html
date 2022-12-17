@@ -14,7 +14,7 @@
         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
         <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+        <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
         <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
         <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
@@ -37,10 +37,55 @@
           <li class="section-item">Telegram:<a href="https://t.me/kozinaksa" class="link">kozinaksa</a></li>
         </ul>
       </section>
-      <section class="section" id="'summary">
+      <section class="section" id="summary">
         <h2 class="section-title">Summary</h2>
         <p class="section=text">My goal is to&nbsp;create convenient interfaces for&nbsp;users, to&nbsp;make people's stay on&nbsp;the&nbsp;Internet easier and&nbsp;more enjoyable. I&nbsp;graduated from&nbsp;a&nbsp;publishing college, which means I&nbsp;can&nbsp;choose the&nbsp;appropriate font, arrange the&nbsp;elements on&nbsp;the&nbsp;page, and build a&nbsp;modular grid. I&nbsp;independently studied the&nbsp;basics of&nbsp;working with color, Adobe PhotoShop and Illustrator. I&nbsp;understand the&nbsp;principles of&nbsp;the&nbsp;Internet, networks, browsers.</p>
         <p class="section-text">I&nbsp;am&nbsp;sure that enthusiasm, perseverance, the&nbsp;ability to&nbsp;read, understand and clarify (if&nbsp;necessary) the&nbsp;requirements for&nbsp;the&nbsp;task, as&nbsp;well as&nbsp;the&nbsp;ability to&nbsp;plan my working time will help me become a&nbsp;good frontend developer.</p>
+      </section>
+      <section class="section" id="code-example">
+        <h2 class="section-title">Code Example</h2>
+        <p class="section-text">Replace With Alphabet Position on <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript" class="link">Codewars</a></p>
+        <h4 class="section-title small">Description:</h4>
+        <p class="section-text">In this kata you are required to, given a string, replace every letter with its position in the alphabet.<br>If anything in the text isn't a letter, ignore it and don't return it. <code>"a" = 1</code>, <code>"b" = 2</code>, etc.</p>
+        <h4 class="section-title small">Example:</h4>
+        <p>Alphabet_position ('The sunset sets at twelve o'clock.'')</p>
+        <p>Should return <code>"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</code> (as a string)</p>
+        <h4 class="section-title small">Solution:</h4>
+        <pre class="code">
+function alphabetPosition(text) {
+  let nums = [];
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  for (let i = 0; i < text.length; i++) {
+    let symb = alphabet.indexOf(text[i].toLowerCase());
+    if (symb !== -1) {
+      nums.push(symb + 1);
+    }
+  }
+  return nums.join(' ');
+}
+        </pre>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-text">This Curriculum Vitae is my first project. When creating, I used markup language HTML, rule-based language CSS, source-code editor VS Code and distributed version control system Git.</p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="education-item"><a href="https://code-basics.com/languages/html" class="link">HTML basics for beginners</a> (completed)</li>
+            <li class="education-item"><a href="https://code-basics.com/languages/css" class="link">CSS basics for beginners</a> (completed)</li>
+            <li class="education-item"><a href="https://marksheet.io/html-basics.html" class="link">HTML is like Word but for the Web</a> (in progress)</li>
+            <li class="education-item"><a href="https://marksheet.io/css-basics.html" class="link">Painting with code</a> (in progress)</li>
+            <li class="education-item"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" class="link">Responsive Web Design</a> (in progress)</li>
+            <li class="education-item"><a href="https://learn.javascript.ru/" class="link">JavaScript Manual</a> (in progress)</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-list">
+          <li class="section-item">Russian: Native</li>
+          <li class="section-item">English: B1 Intermediate (According to <a href="https://www.efset.org/quick-check/" class="link">EF SET short English quiz</a>)</li>
+        </ul>
       </section>
     </div>
   </main>
