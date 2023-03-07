@@ -78,15 +78,15 @@
           </blockquote>
           <h4 class="section-title small-title solution-title">Solution:</h4>
           <pre class="code-example">
-  <span class='purple'>function</span> <span class = 'orange'>alphabetPosition</span>(<span class = 'orange'>text</span>) {
-    <span class='purple'>let</span> <span class = 'orange'>nums</span> = [];
-    <span class='purple'>const</span> <span class = 'orange'>alphabet</span> = <span class ='green'>"abcdefghijklmnopqrstuvwxyz"</span>;
-    <span class='purple'>for</span> (<span class = 'purple'>let</span> <span class = 'orange'>i</span> = <span class = 'orange'>0</span>; <span class = 'blue'>i</span> &lt; <span class = 'blue'>text</span>.<span class = 'blue'>length</span>; <span class = 'blue'>i</span>++) {
-      <span class='purple'>let</span> <span class = 'orange'>symb</span> = <span class = 'blue'>alphabet</span>.<span class = 'blue'>indexOf</span>(<span class = 'blue'>text</span>[<span class = 'blue'>i</span>].<span class = 'blue'>toLowerCase</span>());
-      <span class='purple'>if</span> (<span class = 'blue'>symb</span> !== -<span class = 'orange'>1</span>)
-        <span class = 'blue'>nums</span>.<span class = 'blue'>push</span>(<span class = 'blue'>symb</span> + <span class = 'orange'>1</span>);
+  <span class="purple">function</span> <span class="orange">alphabetPosition</span>(<span class="orange">text</span>) {
+    <span class="purple">let</span> <span class="orange">nums</span> = [];
+    <span class="purple">const</span> <span class="orange">alphabet</span> = <span class ="green">"abcdefghijklmnopqrstuvwxyz"</span>;
+    <span class="purple">for</span> (<span class="purple">let</span> <span class="orange">i</span> = <span class="orange">0</span>; <span class="blue">i</span> &lt; <span class="blue">text</span>.<span class="blue">length</span>; <span class="blue">i</span>++) {
+      <span class="purple">let</span> <span class="orange">symb</span> = <span class="blue">alphabet</span>.<span class="blue">indexOf</span>(<span class="blue">text</span>[<span class="blue">i</span>].<span class="blue">toLowerCase</span>());
+      <span class="purple">if</span> (<span class="blue">symb</span> !== -<span class="orange">1</span>)
+        <span class="blue">nums</span>.<span class="blue">push</span>(<span class="blue">symb</span> + <span class="orange">1</span>);
     }
-    <span class='purple'>return</span> <span class = 'blue'>nums</span>.<span class = 'blue'>join</span>(<span class ='green'>' '</span>);
+    <span class="purple">return</span> <span class="blue">nums</span>.<span class="blue">join</span>(<span class ="green">' '</span>);
   }
           </pre>
         </section>
@@ -111,10 +111,10 @@
     <div class="footer-container">
       <div class="year-and-git">
         <p>© 2023<br>Galina Moroz</p>
-        <a href="https://github.com/kozinaksa" class="github-link">
+        <a href="https://github.com/kozinaksa" class="github-link" aria-label="github link">
         </a>
       </div>
-      <a href="https://rs.school/js/" class="rsschool-link">
+      <a href="https://rs.school/js/" class="rsschool-link" aria-label="rs school link">
       </a>
     </div>
   </footer>
