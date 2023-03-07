@@ -51,9 +51,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins-Regular";
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1.5px;
   line-height: 1.5em;
+  background-color: #181818;
   color: #3b3b3b;
 }
 
@@ -84,15 +85,41 @@ span {
   font-weight: 600;
 }
 
-code,
-.code {
+code {
   font-family: "RobotoMono-SemiBold";
   color: #6e7528;
 }
 
+.code-example {
+  font-family: "RobotoMono-SemiBold";
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+.purple {
+  font-weight: normal;
+  color: #540022;
+}
+
+.orange {
+  font-weight: normal;
+  color: #a24600;
+}
+
+.green {
+  font-weight: normal;
+  color: #6e7528;
+}
+
+.blue {
+  font-weight: normal;
+  color: #0c557c;
+}
+
+
 .main-container,
 .footer-container {
-  max-width: 1000px;
+  max-width: 1024px;
   margin: 0 auto;
 
   width: 100%;
@@ -108,21 +135,25 @@ code,
 /*--only-header--*/
 
 .header {
-  background-color: #3b3b3b;
   overflow: auto;
  }
 
 .nav-list {
+  background-color: #3b3b3b;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   list-style: none;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
 }
 
 .nav-link {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 16px 20px;
   color: #f2f2f2;
   font-size: 12px;
 }
@@ -137,7 +168,7 @@ code,
 
 .section-title {
   font-size: 28px;
-  padding-top: 48px;
+  padding-top: 50px;
 }
 
 .section-text,
@@ -162,6 +193,28 @@ code,
 .left-side .section-list {
   font-family: "Poppins-Light";
   list-style: none;
+}
+
+.profile-photo {
+  margin: 11px;
+  border: 1px solid #3b3b3b;
+  border-radius: 50%;
+  position: relative;
+}
+
+.skills-list {
+  margin: 0 0 0 20px;
+}
+
+.skills {
+  padding-top: 10px;
+}
+
+.skills::before {
+    content: "\25CD";
+    color: #f2f2f2;
+    position: absolute;
+    left: 30px;
 }
 
 /*--only-left-side--*/
@@ -197,9 +250,9 @@ code,
 }
 
 .name-title {
-  padding-top: 92px;
+  padding-top: 58px;
   font-family: "Poppins-Light";
-  font-size: 54px;
+  font-size: 44px;
   letter-spacing: 2.5px;
   line-height: 48px;
 }
@@ -207,31 +260,32 @@ code,
 .job-title {
   position: relative;
   left: 10px;
-  padding-top: 20px;
-  padding-bottom: 49px;
+  padding-top: 7px;
+  padding-bottom: 19px;
   font-family: "Poppins-Regular";
-  font-size: 20px;
-  letter-spacing: 4px;
+  font-size: 18px;
+  letter-spacing: 2.5px;
   line-height: 36px;
+  text-transform: uppercase;
 }
 
 .quote-task-code {
   margin: 16px 0;
   background: #f2f2f2;
   color: #3b3b3b;
-  padding: 3px 30px;
+  padding: 3px 16px;
   position: relative;
-  border-left: 35px solid #8f8f8f;
+  border-left: 26px solid #8f8f8f;
 }
 
-.quote-task-code:before {
+.quote-task-code::before {
   content: "\201C";
   font-family: serif;
   position: absolute;
-  left: -30px;
+  left: -20px;
   top: 12px;
   color: #f2f2f2;
-  font-size: 54px;
+  font-size: 32px;
 }
 
 .in-quote {
@@ -254,14 +308,16 @@ code,
 }
 
 .education-list {
-  padding-left: 30px;
+  margin: 0 0 0 20px;
   list-style-type: none;
   padding-bottom: 60px;
 }
 
-.education-list li::marker {
+.education-list li::before {
   content: "\25CD";
-  color: #fc714d;
+  color: #3b3b3b;
+  position: absolute;
+  left: 60px;
 }
 
 .education-item {
@@ -272,10 +328,6 @@ code,
 /*--only-main--*/
 /*--only-footer--*/
 
-.footer {
-  background-color: #3b3b3b;
-}
-
 .footer-container {
   position: relative;
   display: flex;
@@ -284,43 +336,58 @@ code,
   width: 100%;
   margin: 0 auto;
   color: #f2f2f2;
-  padding: 8px 0;
+  padding: 8px 20px;
+  background-color: #3b3b3b;
 }
 
 .year-and-git {
   display: flex;
+  width: 30%;
+  justify-content: left;
+  gap: 20px;
+  align-items: flex-end;
   align-items: center;
 }
 
 .github-link {
-  display: flex;
-  align-items: center;
-  padding-left: 100px;
+  width: 40px;
+  height: 40px;
+  background: url(./assets/svg/github-mark_white.svg) no-repeat;
+  background-size: contain;
 }
 
-.github-logo {
-  padding-right: 15px;
+.github-link:hover {
+  background: url(./assets/svg/github-mark_orange.svg) no-repeat;
+  transition: all 0s;
 }
 
-.footer a {
-  color: #f2f2f2;
-  font-size: 16x;
+.rsschool-link {
+  width: 108px;
+  height: 40px;
+  background: url(./assets/svg/footer-icon-rsschool_white.svg) no-repeat;
+  background-size: contain;
+}
+
+.rsschool-link:hover {
+  background: url(./assets/svg/footer-icon-rsschool_orange.svg) no-repeat;
+  transition: all 0s;
 }
 
 /*--only-footer--*/
 
-@media only screen and (max-width: 300px) {
+@media screen and (max-width: 380px) {
   .left-side,
   .right-side {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 301px) and (max-width: 800px) {
-  .left-side,
-  .right-side {
+@media screen and (min-width: 380px) and (max-width: 768px) {
+  /* .left-side,
+  .right-side,
+  .year-and-git {
     width: 50%;
-  }
+  } */
   .profile-photo {
     width: 100%;
     height: auto;
