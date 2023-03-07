@@ -121,11 +121,19 @@ code {
 .footer-container {
   max-width: 1024px;
   margin: 0 auto;
+<<<<<<< HEAD
 
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 
+=======
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+>>>>>>> gh-pages
 }
 
 .section {
@@ -135,6 +143,10 @@ code {
 /*--only-header--*/
 
 .header {
+<<<<<<< HEAD
+=======
+  background-color: #3b3b3b;
+>>>>>>> gh-pages
   overflow: auto;
  }
 
@@ -368,6 +380,7 @@ code {
   background-size: contain;
 }
 
+<<<<<<< HEAD
 .rsschool-link:hover {
   background: url(./assets/svg/footer-icon-rsschool_orange.svg) no-repeat;
   transition: all 0s;
@@ -388,8 +401,41 @@ code {
   .year-and-git {
     width: 50%;
   } */
+=======
+/*--only-footer--*/
+
+@media only screen and (max-width: 450px) {
+  .left-side,
+  .right-side {
+		width: 100%;
+	}
+>>>>>>> gh-pages
   .profile-photo {
     width: 100%;
     height: auto;
   }
 }
+<<<<<<< HEAD
+=======
+
+@media only screen and (min-width: 451px) and (max-width: 800px) {
+	.left-side,
+  .right-side {
+		width: 50%;
+    font-size: 0.8em;
+	}
+  .profile-photo {
+    width: 100%;
+    height: auto;
+  }
+  .section-title {
+    font-size: 1em;
+  }
+  .quote-task-code {
+    margin: 0;
+    padding: 0;
+    content: "";
+    border-left: 0;
+  }
+}
+>>>>>>> gh-pages
