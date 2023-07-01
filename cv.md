@@ -4,20 +4,18 @@
 ---
 
 ### Contact Info ###
-* __Location__ Saint Petersburg, Russia (GMT +3)
+* __Location__ Tula (GMT +3)
 * __E-mail__ <kozinaksa@gmail.com>
 * __Phone number__ +7-981-721-45-92
 * __Github__ [kozinaksa](https://github.com/kozinaksa)
-* __Discord__ Lin_Moro#8613
+* __Discord__ kozinaksa
 * __Telegram__ [@kozinaksa](https://t.me/kozinaksa)
 
 ---
 ### About me ###
-My goal is to&nbsp;create convenient interfaces for&nbsp;users, to&nbsp;make people's stay on&nbsp;the&nbsp;Internet easier and&nbsp;more enjoyable. I&nbsp;graduated from&nbsp;a&nbsp;publishing college, which means I&nbsp;can&nbsp;choose the&nbsp;appropriate font, arrange the&nbsp;elements on&nbsp;the&nbsp;page, and build a&nbsp;modular grid. I&nbsp;independently studied the&nbsp;basics of&nbsp;working with color, Adobe PhotoShop and Illustrator. I&nbsp;understand the&nbsp;principles of&nbsp;the&nbsp;Internet, networks, browsers.
-
-I&nbsp;also successfully completed The Rolling Scopes training School JS/FE <nobr>Pre-School</nobr> 2022Q4 and&nbsp;gained knowledge and&nbsp;practical experience in&nbsp;creating web&nbsp;pages, working with Webpack and Node.js as&nbsp;well as&nbsp;solving Javascript problems
-
-I&nbsp;am&nbsp;sure that enthusiasm, perseverance, the&nbsp;ability to&nbsp;read, understand and clarify (if&nbsp;necessary) the&nbsp;requirements for&nbsp;the&nbsp;task, as&nbsp;well as&nbsp;the&nbsp;ability to&nbsp;plan my working time will help me become a&nbsp;good frontend developer.
+<p>My&nbsp;goal is&nbsp;to&nbsp;create convenient interfaces for users to&nbsp;make people&rsquo;s experience on&nbsp;the Internet easier and more enjoyable. I&nbsp;graduated from a&nbsp;publishing college, which means I&nbsp;can choose the appropriate font, arrange the elements on&nbsp;the page, and build a&nbsp;modular grid. I&nbsp;independently studied the basics of&nbsp;working with color, Adobe Photoshop, and Illustrator. I&nbsp;understand the principles of&nbsp;the Internet, networks, and browsers.</p>
+<p>I&nbsp;also successfully completed The Rolling Scopes Training School JS/FE <nobr>Pre-School</nobr> 2022Q4 and gained knowledge and practical experience in&nbsp;creating web pages, working with Webpack and Node.js, as&nbsp;well as&nbsp;solving JavaScript problems.</p>
+<p>I&nbsp;am&nbsp;confident that enthusiasm, perseverance, the ability to&nbsp;read, understand, and clarify (if&nbsp;necessary) the requirements for the task, as&nbsp;well as&nbsp;the ability to&nbsp;plan my&nbsp;working time, will help me&nbsp;become a&nbsp;good frontend developer.</p>
 
 
 ---
@@ -60,20 +58,17 @@ function alphabetPosition(text) {
 
 ### Experiences ###
 This is Curriculum Vitae. When creating, I used Markdown formatting syntax, VS Code and Github. \
-<https://github.com/kozinaksa/my-cv/>
+[project repository link](https://github.com/kozinaksa/rsschool-cv/tree/gh-pages)
 
-Plants (Learning project). It was necessary to create an adaptive web page and add functionality to JS \
-<https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/plants>
+[Plants](https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/plants/) (Learning project). It was necessary to create an adaptive web page and add functionality to JS \
+[project repository link](https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/plants)
 
 ---
 
 ### Educations ###
 * [THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q4](https://rs.school/js-stage0/) (completed)
 * [JavaScript Manual](https://learn.javascript.ru/) (in progress)
-* [HTML basics for beginners](https://code-basics.com/languages/html) (completed)
-* [HTML is like Word but for the Web](https://marksheet.io/html-basics.html) (completed)
-* [CSS basics for beginners](https://code-basics.com/languages/css) (completed)
-* [Painting with code](https://marksheet.io/css-basics.html) (in progress)
+* [Meta Front-End Developer from Coursera](https://www.coursera.org/professional-certificates/meta-front-end-developer#outcomes) (in progress)
 * [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) (in progress)
 
 ---
