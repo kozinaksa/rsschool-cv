@@ -1,7 +1,7 @@
 * {
-  margin: 0px;
-	padding: 0px;
-  border: 0px;
+  margin: 0 auto;
+	padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -44,18 +44,38 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  margin: 0;
   padding: 0;
   font-family: "Poppins-Regular";
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1.5px;
   line-height: 1.5em;
   background-color: #181818;
   color: #3b3b3b;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 2.5px;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-family: "Poppins-Regular";
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Poppins-Medium";
+  text-transform: uppercase;
 }
 
 a {
@@ -91,9 +111,12 @@ code {
 }
 
 .code-example {
+  padding: 10px;
   font-family: "RobotoMono-SemiBold";
   font-size: 14px;
   color: #3b3b3b;
+  background-color: rgba(59, 59, 59, 0.2);
+  overflow-x: auto;
 }
 
 .purple {
@@ -116,24 +139,16 @@ code {
   color: #0c557c;
 }
 
-
+.nav,
 .main-container,
 .footer-container {
   max-width: 1024px;
   margin: 0 auto;
-<<<<<<< HEAD
-
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-
-=======
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
   width: 100%;
->>>>>>> gh-pages
 }
 
 .section {
@@ -141,14 +156,6 @@ code {
 }
 
 /*--only-header--*/
-
-.header {
-<<<<<<< HEAD
-=======
-  background-color: #3b3b3b;
->>>>>>> gh-pages
-  overflow: auto;
- }
 
 .nav-list {
   background-color: #3b3b3b;
@@ -179,7 +186,6 @@ code {
 }
 
 .section-title {
-  font-size: 28px;
   padding-top: 50px;
 }
 
@@ -196,10 +202,6 @@ code {
   background-color: #3b3b3b;
   color: #f2f2f2;
   z-index: 1;
-}
-
-.left-side .section-title {
-  font-family: "Poppins-ExtraLight";
 }
 
 .left-side .section-list {
@@ -242,13 +244,7 @@ code {
   z-index: 1;
 }
 
-.right-side .section-title {
-  font-family: "Poppins-Light";
-}
-
 .small-title {
-  font-family: "Poppins-Medium";
-  font-size: 20px;
   padding-top: 0;
 }
 
@@ -261,24 +257,10 @@ code {
   font-family: "Poppins-Regular";
 }
 
-.name-title {
-  padding-top: 58px;
-  font-family: "Poppins-Light";
-  font-size: 44px;
-  letter-spacing: 2.5px;
-  line-height: 48px;
-}
-
 .job-title {
   position: relative;
-  left: 10px;
   padding-top: 7px;
   padding-bottom: 19px;
-  font-family: "Poppins-Regular";
-  font-size: 18px;
-  letter-spacing: 2.5px;
-  line-height: 36px;
-  text-transform: uppercase;
 }
 
 .quote-task-code {
@@ -380,28 +362,6 @@ code {
   background-size: contain;
 }
 
-<<<<<<< HEAD
-.rsschool-link:hover {
-  background: url(./assets/svg/footer-icon-rsschool_orange.svg) no-repeat;
-  transition: all 0s;
-}
-
-/*--only-footer--*/
-
-@media screen and (max-width: 380px) {
-  .left-side,
-  .right-side {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 380px) and (max-width: 768px) {
-  /* .left-side,
-  .right-side,
-  .year-and-git {
-    width: 50%;
-  } */
-=======
 /*--only-footer--*/
 
 @media only screen and (max-width: 450px) {
@@ -409,14 +369,11 @@ code {
   .right-side {
 		width: 100%;
 	}
->>>>>>> gh-pages
   .profile-photo {
     width: 100%;
     height: auto;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
 	.left-side,
@@ -438,4 +395,3 @@ code {
     border-left: 0;
   }
 }
->>>>>>> gh-pages
