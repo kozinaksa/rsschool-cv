@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
 	padding: 0;
   border: 0;
   box-sizing: border-box;
@@ -41,35 +41,36 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0 auto;
 }
 
 body {
+  margin: 0 auto;
   padding: 0;
+  max-width: 1440px;
   font-family: "Poppins-Regular";
-  font-size: 16px;
-  letter-spacing: 1.5px;
+  font-size: 14px;
   line-height: 1.5em;
   background-color: #181818;
   color: #3b3b3b;
 }
 
 h1 {
-  font-size: 28px;
+  font-family: "Poppins-Thin";
+  font-size: 32px;
   letter-spacing: 2.5px;
-  line-height: 1.5em;
 }
 
 h2 {
-  font-family: "Poppins-Regular";
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  line-height: 1.5em;
+  font-family: "Poppins-Light";
+  font-size: 18px;
+  letter-spacing: 2.5px;
 }
 
 h3 {
-  font-size: 14px;
+  font-family: "Poppins-Thin";
+  font-size: 12px;
   letter-spacing: 2.5px;
-  line-height: 2em;
   text-transform: uppercase;
 }
 
@@ -139,20 +140,25 @@ code {
   color: #0c557c;
 }
 
+.icon {
+  width: 22px;
+  height: auto;
+  margin: 0 15px 0 0;
+}
+
 .nav,
 .main-container,
 .footer-container {
-  max-width: 1024px;
+  min-width: 320px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   position: relative;
   width: 100%;
 }
 
 .section {
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 /*--only-header--*/
@@ -164,15 +170,14 @@ code {
   flex-wrap: wrap;
   align-items: center;
   list-style: none;
-  margin: 0 auto;
-  max-width: 1024px;
   width: 100%;
+  border-bottom: 3px solid #FC714D;
 }
 
 .nav-link {
   display: block;
   text-align: center;
-  padding: 16px 20px;
+  padding: 5px 20px;
   color: #f2f2f2;
   font-size: 12px;
 }
@@ -186,22 +191,25 @@ code {
 }
 
 .section-title {
-  padding-top: 50px;
+  padding: 20px 0 10px;
 }
 
-.section-text,
 .section-item {
-  padding-top: 16px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 0 20px 0;
 }
 
 /*--only-left-side--*/
 
 .left-side {
   position: relative;
-  width: 30%;
+  width: 320px;
   background-color: #3b3b3b;
   color: #f2f2f2;
   z-index: 1;
+  border-right: 3px solid #FC714D;
 }
 
 .left-side .section-list {
@@ -210,10 +218,18 @@ code {
 }
 
 .profile-photo {
-  margin: 11px;
-  border: 1px solid #3b3b3b;
+  margin: 10px 50px 0;
+  object-position: center top;
   border-radius: 50%;
+}
+
+.name-title {
+  padding: 15px 0 0;
+}
+
+.job-title {
   position: relative;
+  padding: 10px 0 30px;
 }
 
 .skills-list {
@@ -236,13 +252,11 @@ code {
 
 .right-side {
   position: relative;
-  width: 70%;
   background-color: #f2f2f2;
   color: #3b3b3b;
-  padding: 0 30px;
-  overflow: hidden;
   z-index: 1;
 }
+
 
 .small-title {
   padding-top: 0;
@@ -255,12 +269,6 @@ code {
 
 .right-side .section-text {
   font-family: "Poppins-Regular";
-}
-
-.job-title {
-  position: relative;
-  padding-top: 7px;
-  padding-bottom: 19px;
 }
 
 .quote-task-code {
