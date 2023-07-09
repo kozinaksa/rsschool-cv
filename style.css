@@ -232,7 +232,8 @@ span {
   flex-wrap: wrap;
 }
 
-.symbol {
+.symbol::before {
+  content: "\25CD";
   color: #fc714d;
 }
 
@@ -388,14 +389,13 @@ code {
   color: #f2f2f2;
   padding: 8px 20px;
   background-color: #3b3b3b;
+  border-top: 3px solid #FC714D;
 }
 
 .year-and-git {
   display: flex;
-  width: 30%;
-  justify-content: left;
-  gap: 20px;
-  align-items: flex-end;
+  justify-content: space-between;
+  gap: 255px;
   align-items: center;
 }
 
