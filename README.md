@@ -1,3 +1,4 @@
 # rsschool-cv
-https://kozinaksa.github.io/rsschool-cv/cv
-https://kozinaksa.github.io/rsschool-cv/
+Markdown CV https://kozinaksa.github.io/rsschool-cv/cv
+
+HTML CV https://kozinaksa.github.io/rsschool-cv/
