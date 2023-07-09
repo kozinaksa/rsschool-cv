@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>CV Galina Moroz</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="./assets/svg/icon-for-cv.ico">
   <base target="_blank">
@@ -27,49 +27,63 @@
     <div class="main-container">
       <div class="left-side">
         <figure class="figure">
-          <img src="./assets/img/my-photo_new.jpg" class="profile-photo" width="280" alt="My photo">
+          <img src="./assets/img/my-photo_new.jpg" class="profile-photo" width="240" height="240" alt="My photo">
         </figure>
-        <section class="section" id="contacts">
-          <h2 class="section-title">Contacts</h2>
-          <ul class="section-list">
-            <li class="section-item"><span>Location</span><br>Saint-Petersburg,<br>Russia (GMT +7)</li>
-            <li class="section-item"><span>E-mail</span><br>kozinaksa@gmail.com</li>
-            <li class="section-item"><span>Github</span><br><a href="https://github.com/kozinaksa">kozinaksa</a></li>
-            <li class="section-item"><span>Discord</span><br>Lin_Moro#8613</li>
-            <li class="section-item"><span>Telegram</span><br><a href="https://t.me/kozinaksa">kozinaksa</a></li>
-          </ul>
-        </section>
-        <section class="section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <ul class="section-list skills-list">
-            <li class="section-item skills">HTML, CSS</li>
-            <li class="section-item skills">JavaScript, </li>
-            <li class="section-item skills">Git</li>
-            <li class="section-item skills">VS Code</li>
-              <li class="section-item skills">InDesign, PhotoShop, Illustrator</li>
-          </ul>
-        </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul class="section-list">
-            <li class="section-item"><span>Russian</span><br>Native</li>
-            <li class="section-item"><span>English</span><br>B1 Intermediate (According to <a href="https://www.efset.org/quick-check/">EF SET short English quiz</a>)</li>
-          </ul>
-        </section>
-      </div>
-      <div class="right-side">
         <section class="section" id="profile">
           <h1 class="name-title">Galina Moroz</h1>
           <h3 class="job-title">Frontend Developer</h3>
         </section>
-        <section class="section" id="summary">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <img class="icon" src="./assets/svg/location.svg" alt="location-icon">
+              <p>Tula, Russia (GMT +7)</p>
+            </li>
+            <li class="section-item">
+              <img class="icon" src="./assets/svg/letter.svg" alt="emai-icon">
+              <a href="mailto:kozinaksa@gmail.com">
+                kozinaksa@gmail.com
+              </a>
+            </li>
+            <li class="section-item">
+              <img class="icon" src="./assets/svg/github-mark_white.svg" alt="github-icon">
+              <p><a href="https://github.com/kozinaksa">kozinaksa</a></p>
+            </li>
+            <li class="section-item">
+              <img class="icon" src="./assets/svg/discord.svg" alt="discord-icon">
+              <p>Lin_Moro#8613</p>
+            </li>
+            <li class="section-item">
+              <img class="icon" src="./assets/svg/telegram-svgrepo-com.svg" alt="telegram-icon">
+              <p><a href="https://t.me/kozinaksa">kozinaksa</a></p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="section section__summary" id="summary">
           <h2 class="section-title">Summary</h2>
           <p class="section-text">My goal is to&nbsp;create convenient interfaces for&nbsp;users, to&nbsp;make people's stay on&nbsp;the&nbsp;Internet easier and&nbsp;more enjoyable. I&nbsp;understand the&nbsp;principles of&nbsp;the&nbsp;Internet, networks, browsers. I&nbsp;have knowledge and some hands-on experience building web pages, working with Webpack and Node.js, and doing Javascript tasks.</p>
           <p class="section-text">I&nbsp;am&nbsp;sure that enthusiasm, perseverance, the&nbsp;ability to&nbsp;read, understand and clarify (if&nbsp;necessary) the&nbsp;requirements for&nbsp;the&nbsp;task, as&nbsp;well as&nbsp;the&nbsp;ability to&nbsp;plan my working time will help me become a&nbsp;good frontend developer.</p>
         </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list skills-list">
+            <li class="section-item skills">HTML, CSS, SCSS (Sass)</li>
+            <li class="section-item skills symbol"></li>
+            <li class="section-item skills">JavaScript </li>
+            <li class="section-item skills symbol"></li>
+            <li class="section-item skills">Git</li>
+            <li class="section-item skills symbol"></li>
+            <li class="section-item skills">VS Code, Webpack</li>
+            <li class="section-item skills symbol"></li>
+            <li class="section-item skills">InDesign, PhotoShop, Illustrator</li>
+          </ul>
+        </section>
         <section class="section" id="code-example">
           <h2 class="section-title">Code Example</h2>
-          <p class="section-text "><span>Replace With Alphabet Position</span> on <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript" class="link">Codewars</a></p>
+          <p class="section-text "><a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript" class="link"><span>Replace With Alphabet Position</span></a> on Codewars</p>
           <blockquote class="quote-task-code">
             <h4 class="section-title small-title">Description:</h4>
             <p class="section-text in-quote">In this kata you are required to, given a string, replace every letter with its position in the alphabet.<br>If anything in the text isn't a letter, ignore it and don't return it. <code>"a" = 1</code>, <code>"b" = 2</code>, etc.</p>
@@ -77,7 +91,7 @@
             <p class="section-text in-quote"><span>alphabetPosition("The sunset sets at twelve o'clock.")</span><br>Should return <code>"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</code> (as a string)</p>
           </blockquote>
           <h4 class="section-title small-title solution-title">Solution:</h4>
-          <pre class="code-example">
+          <pre class="example">
   <span class="purple">function</span> <span class="orange">alphabetPosition</span>(<span class="orange">text</span>) {
     <span class="purple">let</span> <span class="orange">nums</span> = [];
     <span class="purple">const</span> <span class="orange">alphabet</span> = <span class="green">"abcdefghijklmnopqrstuvwxyz"</span>;
@@ -87,21 +101,43 @@
         <span class="blue">nums</span>.<span class="blue">push</span>(<span class="blue">symb</span> + <span class="orange">1</span>);
     }
     <span class="purple">return</span> <span class="blue">nums</span>.<span class="blue">join</span>(<span class="green">' '</span>);
-  }
-          </pre>
+  }</pre>
         </section>
         <section class="section" id="experience">
-          <h2 class="section-title experience-title">Study Projects</h2>
-          <p class="section-text"><strong>Plants</strong> This is the grower's plants web page. (<a href="https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/plants">Visit the project repository on Github</a> <span>/</span> <a href="https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/plants/">Open Plants page</a>)<br><strong>Momentum</strong> This is&nbsp;an&nbsp;analogue of&nbsp;the Google application of&nbsp;the same name. (<a href="https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/momentum">Visit the project repository on Github</a> <span>/</span> <a href="https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/momentum/">Open Momentum page</a>)<br>When creating these projects, I used markup language HTML, rule-based language CSS, JavaScript, source-code editor VS Code and distributed version control system Git.</p>
+          <h2 class="section-title experience-title">Experience (Study Projects)</h2>
+          <p class="section-text">When creating these projects, I&nbsp;used markup language HTML, rule-based language CSS, JavaScript, source-code editor VS&nbsp;Code and distributed version control system Git.</p>
+          <div class="section-text projects-wrapper">
+            <div class="project">
+              <h4>Plants</h4>
+              <a href="https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/plants/">
+                <img class="project-img" src="./assets/img/plants.jpg"  alt="plants-img">
+              </a>
+              <p>This is the grower's plants web page. <a href="https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/plants">(Visit the project repository on Github)</a></p>
+            </div>
+            <div class="project">
+              <h4>Momentum</h4>
+              <a href="https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/momentum/">
+                <img class="project-img" src="./assets/img/momentum.jpg" alt="momentum-img">
+              </a>
+              <p>This is&nbsp;an&nbsp;analogue of&nbsp;the Google application of&nbsp;the same name. <a href="https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/momentum">(Visit the project repository on Github)</a></p>
+            </div>
+          </div>
         </section>
         <section class="section" id="education">
           <h2 class="section-title education-title">Education</h2>
           <ul class="section-list education-list">
-            <li class="section-item education-item"><a href="https://rs.school/js-stage0/" class="link">RS School JS/FE Pre-School</a> (completed)</li>
-            <li class="section-item education-item"><a href="https://marksheet.io/html-basics.html" class="link">HTML is like Word but for the Web</a> (completed)</li>
-            <li class="section-item education-item"><a href="https://marksheet.io/css-basics.html" class="link">Painting with code</a> (in progress)</li>
-            <li class="section-item education-item"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" class="link">Responsive Web Design</a> (in progress)</li>
-            <li class="section-item education-item"><a href="https://learn.javascript.ru/" class="link">JavaScript Manual</a> (in progress)</li>
+            <li class="section-item education-item"><p><a href="https://rs.school/js-stage0/" class="link">RS School JS/FE Pre-School</a> (<a href="https://app.rs.school/certificate/z567mfgk">completed</a>)</p></li>
+            <li class="section-item education-item"><p><a href="https://www.coursera.org/professional-certificates/meta-front-end-developer#outcomes" class="link">Meta Front-End Developer from Coursera</a> (in progress)</p></li>
+            <li class="section-item education-item"><p><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" class="link">Responsive Web Design</a> (in progress)</p></li>
+            <li class="section-item education-item"><p><a href="https://learn.javascript.ru/" class="link">JavaScript Manual</a> (in progress)</p></li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list language-list">
+            <li class="section-item"><p><span>Russian</span> Native</p></li>
+            <li class="section-item symbol"></li>
+            <li class="section-item"><p><span>English</span> B1 Intermediate (According to <a href="https://www.efset.org/quick-check/">EF SET short English quiz</a>)</p></li>
           </ul>
         </section>
       </div>
@@ -110,9 +146,9 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="year-and-git">
-        <p>© 2023<br>Galina Moroz</p>
         <a href="https://github.com/kozinaksa" class="github-link" aria-label="github link">
         </a>
+        <p>© 2023<br>Galina Moroz</p>
       </div>
       <a href="https://rs.school/js/" class="rsschool-link" aria-label="rs school link">
       </a>
