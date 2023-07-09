@@ -351,7 +351,7 @@ code {
 }
 
 .education-list {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 30px;
   list-style-type: none;
   padding-bottom: 60px;
 }
@@ -360,7 +360,7 @@ code {
   content: "\25CD";
   color: #fc714d;
   position: absolute;
-  left: 60px;
+  left: 70px;
 }
 
 .education-item {
