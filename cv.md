@@ -1,67 +1,58 @@
 # Galina Moroz #
-### Frontend Developer ###
-
+### Junior Frontend Developer ###
 ---
 
 ### Contact Info ###
-* __Location__ Tula (GMT +3)
+* __Location__ Bryansk (GMT +3)
+* __Github__ <https://github.com/kozinaksa>
 * __E-mail__ <kozinaksa@gmail.com>
-* __Phone number__ +7-981-721-45-92
-* __Github__ [kozinaksa](https://github.com/kozinaksa)
 * __Discord__ kozinaksa
 * __Telegram__ [@kozinaksa](https://t.me/kozinaksa)
 
 ---
 ### About me ###
-<p>My&nbsp;goal is&nbsp;to&nbsp;create convenient interfaces for users to&nbsp;make people&rsquo;s experience on&nbsp;the Internet easier and more enjoyable. I&nbsp;graduated from a&nbsp;publishing college, which means I&nbsp;can choose the appropriate font, arrange the elements on&nbsp;the page, and build a&nbsp;modular grid. I&nbsp;independently studied the basics of&nbsp;working with color, Adobe Photoshop, and Illustrator. I&nbsp;understand the principles of&nbsp;the Internet, networks, and browsers.</p>
+<p>My&nbsp;goal is&nbsp;to&nbsp;create convenient interfaces for users to&nbsp;make people’s&nbsp;experience on&nbsp;the Internet easier and more enjoyable. I&nbsp;graduated from a&nbsp;publishing college, which means I&nbsp;can choose the appropriate font, arrange the elements on&nbsp;the page, and build a&nbsp;modular grid. I&nbsp;studied the basics of&nbsp;working with color, understood the principles of&nbsp;the Internet, networks, and browsers.</p>
 <p>I&nbsp;also successfully completed The Rolling Scopes Training School JS/FE <nobr>Pre-School</nobr> 2022Q4 and gained knowledge and practical experience in&nbsp;creating web pages, working with Webpack and Node.js, as&nbsp;well as&nbsp;solving JavaScript problems.</p>
-<p>I&nbsp;am&nbsp;confident that enthusiasm, perseverance, the ability to&nbsp;read, understand, and clarify (if&nbsp;necessary) the requirements for the task, as&nbsp;well as&nbsp;the ability to&nbsp;plan my&nbsp;working time, will help me&nbsp;become a&nbsp;good frontend developer.</p>
+<p>I&nbsp;am&nbsp;confident that enthusiasm, perseverance, the ability to&nbsp;read, understand, and clarify (if&nbsp;necessary) the requirements for the task will help me&nbsp;become a&nbsp;good frontend developer.</p>
 
 
 ---
 
 ### Skills ###
-__Languages:__ JavaScript, HTML, CSS \
-__Version Control System:__ Git \
-__Tools:__ VS Code, Webpack \
-__Adobe:__ InDesign, PhotoShop, Illustrator
+- HTML
+- CSS (Preprocessor SCSS, BEM methodology)
+- JavaScript (Fundamentals, DOM, JSON, Asynchronous JavaScript)
+- Git / GitHub
+- Webpack
+- Adobe (InDesign, PhotoShop, Illustrator)
 
 ---
 
 ### Code Example ###
-'Replace With Alphabet Position' on [Codewars](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript).
+'Bit Counting' on [codewars](https://www.codewars.com/kata/526571aae218b8ee490006f4/javascript).
 
 > __Description:__ \
-Welcome. In this kata you are required to, given a string, replace every letter with its position in the alphabet. \
-If anything in the text isn't a letter, ignore it and don't return it. "a" = 1, "b" = 2, etc. \
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative. \
 __Example:__ \
-alphabetPosition("The sunset sets at twelve o' clock.") \
-Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( as a string )
+The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
 __Solution:__
 
 ```javascript
-function alphabetPosition(text) {
-  let nums = [];
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-  for (let i = 0; i < text.length; i++) {
-    let symb = alphabet.indexOf(text[i].toLowerCase());
-    if (symb !== -1) {
-      nums.push(symb + 1);
-    }
-  }
-  return nums.join(' ');
-}
+var countBits = function(n) {
+  n = (n).toString(2).toString(10).split('').map(int => parseInt(int, 10));
+  return [...n].filter(el => el === 1).length;
+};
 ```
 
 ---
 
 ### Experiences ###
 This is Curriculum Vitae. When creating, I used Markdown formatting syntax, VS Code and Github. \
-[project repository link](https://github.com/kozinaksa/rsschool-cv/tree/gh-pages)
+[project repository](https://github.com/kozinaksa/rsschool-cv/tree/main)
 
-[Plants](https://kozinaksa.github.io/JSFEPRESCHOOL2022Q4/plants/) (Learning project). It was necessary to create an adaptive web page and add functionality to JS \
-[project repository link](https://github.com/kozinaksa/JSFEPRESCHOOL2022Q4/tree/gh-pages/plants)
+[Plants](https://kozinaksa.github.io/jspreschool2022Q4/plants/) (study project). I needed to create a pixelperfect web page based on a layout from Figma, make it responsive and add functionality using JS. \
+[project repository](https://github.com/kozinaksa/jspreschool2022Q4/tree/plants-part3/plants)
 
 ---
 
